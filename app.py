@@ -2,6 +2,11 @@
 import asyncio
 import io
 import os
+import sys
+
+# The package uses a src/ layout; Streamlit Cloud installs requirements.txt
+# without installing this project as a package.
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
 
 import pandas as pd
 import requests
