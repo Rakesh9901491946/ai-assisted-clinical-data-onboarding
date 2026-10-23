@@ -1,0 +1,8 @@
+streamlit==1.42.2
+fastapi==0.115.8
+uvicorn[standard]==0.34.0
+pandas==2.2.3
+pandera==0.22.1
+psycopg[binary]==3.2.6
+python-multipart==0.0.20
+requests==2.32.3

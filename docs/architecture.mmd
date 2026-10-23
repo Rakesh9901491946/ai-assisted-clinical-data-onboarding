@@ -1,0 +1,14 @@
+flowchart LR
+  C[Partner CSV] --> U[Streamlit uploader]
+  U --> A[FastAPI profile + mapping API]
+  A --> P{OpenRouter enabled?}
+  P -->|Headers + aggregate profile only| L[Structured mapping proposals]
+  P -->|No key or disabled| D[Deterministic header rules]
+  L --> H[Human review and approval]
+  D --> H
+  H --> V[Pandera + deterministic validation]
+  V --> X[Allowlisted transforms]
+  X --> O[Validated CSV download]
+  X --> S[(PostgreSQL metadata + audit)]
+  X -. optional .-> M[(Project 1 raw.partner_omop_staging)]
+

@@ -1,0 +1,6 @@
+patient_id,diagnosis_code,diagnosis_date,clinic_note
+SYN-A001, i10 ,01/15/2024,Synthetic record only
+SYN-A002,E11.9,2024-02-03,Synthetic record only
+SYN-A003,Z00.00,03-21-2024,Synthetic record only
+SYN-A003,Z00.00,03-21-2024,Synthetic duplicate row
+

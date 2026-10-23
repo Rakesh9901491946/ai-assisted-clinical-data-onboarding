@@ -1,0 +1,5 @@
+person_source_value,condition_source_value,condition_start_date,source_system
+SYN-C201,R51.9,2024-01-17,synthetic_claims
+SYN-C202,M54.5,2024/02/05,synthetic_claims
+SYN-C203,I10,,synthetic_claims
+
