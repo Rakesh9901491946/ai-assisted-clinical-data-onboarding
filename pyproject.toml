@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "clinical-data-onboarding"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = ["fastapi==0.115.8", "uvicorn[standard]==0.34.0", "pandas==2.2.3", "pandera==0.22.1", "psycopg[binary]==3.3.6", "python-multipart==0.0.20", "requests==2.32.3"]
+dependencies = ["fastapi==0.115.8", "uvicorn[standard]==0.34.0", "pandas==2.3.3", "pandera==0.22.1", "psycopg[binary]==3.3.6", "python-multipart==0.0.20", "requests==2.32.3"]
 
 [project.optional-dependencies]
 dev = ["pytest==8.3.5", "httpx==0.28.1", "streamlit==1.42.2"]
